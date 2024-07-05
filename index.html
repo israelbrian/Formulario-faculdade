@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> 
+        Pesquisa de satisfação
+    </title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <script src="js/javascript.js"></script>
+  </head>
+
+  <body>
+    
+    <header id="cabecalho">
+    <h1> Pesquisa de satisfação </h1>
+    <h2>O que  você acha do ensino da faculdade anhanguera?</h2>
+    </header>
+
+  <!-- Início do formulário -->
+      
+    <form onsubmit="return validarEmail()">
+    
+        <fieldset>
+   
+    <!-- Campo qualidade ensino -->
+    <div>     
+        <label>O que você acha da qualidade de ensino ?</label>
+                <input class="radio" type="radio" name="otima">Ótima
+                <input class="radio" type="radio" name="boa">Boa
+                <input class="radio" type="radio" name="deve_melhorar" checked>Pode melhorar
+                <input class="radio" type="radio" name="ruim">Ruim
+                <input class="radio" type="radio" name="pessima">Péssima
+    </div>     
+
+    <!-- Campo semestre -->
+    <div>     
+        <label>Qual semestre você está?</label>
+                <input class="radio" type="radio" name="1_semestre">1 semestre
+                <input class="radio" type="radio" name="2_semestre">2 semestre
+                <input class="radio" type="radio" name="3_semestre" checked>3 semestre
+    </div>     
+
+    <!-- Campo curso -->
+
+    <div>
+        <label for="Curso">Curso:</label>
+                <select id="curso" required>
+                  <option selected disabled value="">Selecione</option>
+                  <option>Sistemas de informação</option>
+                  <option>Ciências da computação</option>
+                  <option>Engenharia de software</option>
+                </select>
+    </div>
+
+    <!-- Campo nome -->
+    <div class="conteudo-form">
+        <label for="nome">Seu nome:</label>
+        <input type="text" name="nome" id="nome" required>
+    </div>  
+
+    <!-- Campo e-mail-->
+    <div class="conteudo-form">   
+        <label for="email">Seu e-mail:</label>
+        <input type="email" id="email" name="email">
+
+        <input id="enviar" type="submit" value="Enviar">
+    </div>   
+
+        </fieldset>
+    </form>
+
+    <!-- RODAPE  -->
+
+    <footer id="rodape">
+        <div>
+            <p>Todos os direitos reservados IsraelBrian &copy;</p>
+        </div>
+    </footer>
+
+  </body>
+</html>
