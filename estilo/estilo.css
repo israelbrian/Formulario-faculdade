@@ -9,7 +9,7 @@ background-color: #F0F8FF;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
 font-size: 1em;
 color: #59429d;
-background: url(../imgs/fundo.jpg) no-repeat;
+background: url(../imgs/fundo-roxo2.jpg) no-repeat;
 }
 
 #cabecalho {
@@ -21,7 +21,8 @@ h1 {
     letter-spacing: 5px;
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 37px;
+    margin: 0;
 }
 
 h2 {
@@ -37,7 +38,7 @@ background-color: #fff;
 margin-right: auto;
 margin-left: auto;
 border: 0px solid #d0cae6;
-border-radius: 10px;
+border-radius: 15px;
 font-size: 20px;
 /* background: #f8f8f8; */
 }
@@ -51,7 +52,7 @@ fieldset div {
 }
 label {
     font-weight: bold; 
-    padding: 10px;
+    padding: 5px;
     display: block;
 }
 
@@ -91,7 +92,7 @@ input {
     text-align: center;
     color: #f8efca;
     font-size: 20px;
-    margin-right: 50%; 
-    margin: 30% 40% 0 35%;
+    /* margin-right: 50%;  */
+    /* margin: 30% 40% 0 35%; */
 }
 
